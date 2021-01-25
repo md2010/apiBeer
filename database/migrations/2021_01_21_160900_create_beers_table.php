@@ -20,6 +20,7 @@ class CreateBeersTable extends Migration
             $table->integer('abvTo');
             $table->integer('ibuFrom');
             $table->integer('ibuTo');
+            $tale->text('imgsrc');
         });
     }
 
