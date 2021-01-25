@@ -16,8 +16,8 @@ class CreateBeersTable extends Migration
             $table->text('style');
             $table->integer('srmFrom');
             $table->integer('srmTo');
-            $table->float('abvFrom');
-            $table->float('abvTo');
+            $table->integer('abvFrom');
+            $table->integer('abvTo');
             $table->integer('ibuFrom');
             $table->integer('ibuTo');
             $tale->text('imgsrc');
